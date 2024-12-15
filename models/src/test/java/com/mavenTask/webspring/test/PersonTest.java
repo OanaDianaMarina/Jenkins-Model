@@ -14,4 +14,16 @@ class PersonTest {
 		boolean isAdult = psn.isAdult();
 		assertTrue(isAdult);
 	}
+	
+	void TestisAdult1() {
+		Person psn = new Person("Diana", 18);
+		boolean isAdult = psn.isAdult();
+		assertTrue(isAdult);
+	}
+	
+	void TestisAdult2() {
+		Person psn = new Person("Diana", 15);
+		boolean isAdult = psn.isAdult();
+		assertTrue(isAdult);
+	}
 }
