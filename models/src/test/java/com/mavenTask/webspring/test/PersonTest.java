@@ -24,7 +24,7 @@ class PersonTest {
 	
 	@Test
 	void TestisAdult2() {
-		Person psn = new Person("Diana", 15);
+		Person psn = new Person("Diana", 25);
 		boolean isAdult = psn.isAdult();
 		assertTrue(isAdult);
 	}
