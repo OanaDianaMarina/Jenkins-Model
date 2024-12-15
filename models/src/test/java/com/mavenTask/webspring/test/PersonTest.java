@@ -15,12 +15,14 @@ class PersonTest {
 		assertTrue(isAdult);
 	}
 	
+	@Test
 	void TestisAdult1() {
 		Person psn = new Person("Diana", 18);
 		boolean isAdult = psn.isAdult();
 		assertTrue(isAdult);
 	}
 	
+	@Test
 	void TestisAdult2() {
 		Person psn = new Person("Diana", 15);
 		boolean isAdult = psn.isAdult();
